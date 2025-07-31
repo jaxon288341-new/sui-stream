@@ -1,0 +1,29 @@
+{
+  "name": "suistream-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mysten/dapp-kit": "^0.12.1",
+    "@mysten/sui.js": "^0.51.2",
+    "@tanstack/react-query": "^5.28.0",
+    "lucide-react": "^0.352.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "ts-node scripts/deploy.ts"
+  },
+  "browserslist": {
+    "production": [ ">0.2%", "not dead", "not op_mini all" ],
+    "development": [ "last 1 chrome version", "last 1 firefox version", "last 1 safari version" ]
+  }
+}
